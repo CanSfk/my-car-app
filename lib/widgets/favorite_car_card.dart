@@ -66,13 +66,6 @@ class FavoriteCarCard extends StatelessWidget {
                             color: Theme.of(context).colorScheme.primary,
                           ),
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      car.description,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
                   ],
                 ),
               ),
